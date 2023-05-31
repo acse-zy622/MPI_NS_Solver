@@ -23,11 +23,11 @@ public:
 	double** mat_2D;
 	int n, m;
 
-	Cmatrix()
-	{
-		mat_1D = nullptr;
-		mat_2D = nullptr;
-	}
+	//Cmatrix()
+	//{
+	//	mat_1D = nullptr;
+	//	mat_2D = nullptr;
+	//}
 	Cmatrix(int imax, int jmax)
 	{
 		n = imax;
@@ -515,9 +515,9 @@ void CWorld::solve_NS(void)
 	double t_out = dt_out;
 	double jacob_sum = 0;
 	double its_count = 0;
-	double time_step_sum = 0;
-	double time_step_sum_real = 0;
 	double time_step_sum_temp = 0;
+	double time_step_all = 0;
+	double Jacob_time_all = 0;
 
 	//grids_to_file_byid(out_it);
 
@@ -557,7 +557,7 @@ void CWorld::solve_NS(void)
 		MPI_Allreduce(MPI_IN_PLACE, &vel_max, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
 		double time_step_end = MPI_Wtime();
 		time_step_sum_temp += (time_step_end - time_step_start);
-
+		
 
 		if (t >= t_out)
 		{
@@ -570,9 +570,12 @@ void CWorld::solve_NS(void)
 				cout << "                                                                       " << endl;
 				cout << time_it << ": " << t << " Jacobi iterations: " << its << " vel_max: " << vel_max << endl;
 				cout << "Jacob time per iteration" << " is " << jacob_sum / its_count << " seconds" << endl;
-				cout << "Time per step " << " is " << time_step_sum_temp << " seconds" << endl;
+				cout << "Running time per step " << " is " << time_step_sum_temp << " seconds" << endl;
 				cout << "                                                                       " << endl;
 			}
+
+			Jacob_time_all += jacob_sum / its_count;
+			time_step_all += time_step_sum_temp;
 
 			cout.flush();
 			time_step_sum_temp = 0;
@@ -581,6 +584,11 @@ void CWorld::solve_NS(void)
 
 			//grids_to_file_byid(out_it);
 		}
+	}
+	if (id == 0) {
+		cout << "Average jacob time per iteration" << " is " << Jacob_time_all / 101 << " seconds" << endl;
+		cout << "Average time per step " << " is " << time_step_all / 101 << " seconds" << endl;
+		cout.flush();
 	}
 }
 

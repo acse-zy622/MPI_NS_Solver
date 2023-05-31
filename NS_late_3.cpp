@@ -23,11 +23,11 @@ public:
 	double** mat_2D;
 	int n, m;
 
-	Cmatrix()
-	{
-		mat_1D = nullptr;
-		mat_2D = nullptr;
-	}
+	//Cmatrix()
+	//{
+	//	mat_1D = nullptr;
+	//	mat_2D = nullptr;
+	//}
 	Cmatrix(int imax, int jmax)
 	{
 		n = imax;
@@ -581,6 +581,11 @@ void CWorld::solve_NS(void)
 
 			//grids_to_file_byid(out_it);
 		}
+	}
+	if (id == 0) {
+	    cout << "Average jacob time per iteration" << " is " << Jacob_time_all / 101 << " seconds" << endl;
+		cout << "Average time per step " << " is " << time_step_all / 101 << " seconds" << endl;
+		cout.flush();
 	}
 }
 

@@ -1,0 +1,40 @@
+Nx*Ny
+402*202
+
+32 cores:
+log file: try1.o7649939
+Average jacob time per iteration is 0.000102799 seconds
+Average time per step  is 2.13799 seconds
+Total simulation time is 219.345 seconds
+
+8cores:
+log file: try1.o7655628
+Average jacob time per iteration is 0.000100191 seconds
+Average time per step  is 3.66158 seconds
+Total simulation time is 371.461 seconds
+
+16cores:
+log file: try1.o7655632
+Average jacob time per iteration is 7.82921e-05 seconds
+Average time per step  is 2.18984 seconds
+Total simulation time is 223.814 seconds
+
+4 cores:
+log file: try1.o7649938
+Average jacob time per iteration is 0.000409387 seconds
+Average time per step  is 20.3735 seconds
+Total simulation time is 2058.48 seconds
+
+64 cores:
+log file: try1.o7649940
+Average jacob time per iteration is 5.83964e-05 seconds
+Average time per step  is 1.23842 seconds
+Total simulation time is 128.495 seconds
+
+
+128 cores:
+log file: try1.o7649943
+Average jacob time per iteration is 7.45102e-05 seconds
+Average time per step  is 1.12788 seconds
+Total simulation time is 125.047 seconds
+

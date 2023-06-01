@@ -1,0 +1,548 @@
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 7648965.pbs at Wed 31 May 21:55:46 BST 2023
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider verbs
+# mpiexec: libfabric inferface eth0
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/zy622/home/ppp-mpi-assessment-acse-zy622/NS_late
+# mpiexec: program arguments are: 
+# mpiexec: 4 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 4 ranks per node
+# mpiexec: There are 128 cores/node. 4 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-7-2.cx3.hpc.ic.ac.uk:4
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-7-2.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/zy622/home/ppp-mpi-assessment-acse-zy622/NS_late:
+	linux-vdso.so.1 (0x00007fff451f4000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.6.166/lib/libmpicxx.so.12 (0x000014ba57838000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.6.166/lib/libmpifort.so.12 (0x000014ba5747a000)
+	libmpi.so.12 => /apps/mpi/intel/2019.6.166/lib/release/libmpi.so.12 (0x000014ba563e0000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x000014ba561dc000)
+	librt.so.1 => /lib64/librt.so.1 (0x000014ba55fd4000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014ba55db4000)
+	libstdc++.so.6 => /apps/gcc/5.4.0/lib64/libstdc++.so.6 (0x000014ba55a26000)
+	libm.so.6 => /lib64/libm.so.6 (0x000014ba556a4000)
+	libgcc_s.so.1 => /apps/gcc/5.4.0/lib64/libgcc_s.so.1 (0x000014ba5548e000)
+	libc.so.6 => /lib64/libc.so.6 (0x000014ba550c9000)
+	libfabric.so.1 => /apps/mpi/intel/2019.6.166/libfabric/lib/libfabric.so.1 (0x000014ba54e84000)
+	/lib64/ld-linux-x86-64.so.2 (0x000014ba57a58000)
+# mpiexec: launch started at Wed 31 May 21:55:46 BST 2023
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/zy622/home/ppp-mpi-assessment-acse-zy622/NS_late 
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-7-2.cx3.hpc.ic.ac.uk:0,1,2,3)
+
+                                                                       
+559: 0.500029 Jacobi iterations: 21 vel_max: 0.00744536
+Jacob time per iteration is 4.70005e-07 seconds
+Running time per step  is 2.34153 seconds
+                                                                       
+                                                                       
+1512: 1.00013 Jacobi iterations: 8 vel_max: 0.0114424
+Jacob time per iteration is 5.90066e-06 seconds
+Running time per step  is 0.470159 seconds
+                                                                       
+                                                                       
+2833: 1.50021 Jacobi iterations: 1 vel_max: 0.0149164
+Jacob time per iteration is 8.77989e-06 seconds
+Running time per step  is 0.63743 seconds
+                                                                       
+                                                                       
+4483: 2.00015 Jacobi iterations: 12 vel_max: 0.0180099
+Jacob time per iteration is 9.04497e-06 seconds
+Running time per step  is 0.633454 seconds
+                                                                       
+                                                                       
+6423: 2.50015 Jacobi iterations: 2 vel_max: 0.0207548
+Jacob time per iteration is 1.0256e-05 seconds
+Running time per step  is 0.737831 seconds
+                                                                       
+                                                                       
+8626: 3.00006 Jacobi iterations: 2 vel_max: 0.0232636
+Jacob time per iteration is 1.2365e-05 seconds
+Running time per step  is 0.750912 seconds
+                                                                       
+                                                                       
+11065: 3.50011 Jacobi iterations: 1 vel_max: 0.025446
+Jacob time per iteration is 2.13909e-05 seconds
+Running time per step  is 0.679753 seconds
+                                                                       
+                                                                       
+13699: 4.00008 Jacobi iterations: 1 vel_max: 0.0271615
+Jacob time per iteration is 3.15729e-05 seconds
+Running time per step  is 0.658599 seconds
+                                                                       
+                                                                       
+16483: 4.50002 Jacobi iterations: 1 vel_max: 0.0284652
+Jacob time per iteration is 4.11499e-05 seconds
+Running time per step  is 0.637784 seconds
+                                                                       
+                                                                       
+19381: 5.00001 Jacobi iterations: 1 vel_max: 0.0294501
+Jacob time per iteration is 4.42989e-05 seconds
+Running time per step  is 0.636312 seconds
+                                                                       
+                                                                       
+22365: 5.50004 Jacobi iterations: 1 vel_max: 0.0301911
+Jacob time per iteration is 4.64494e-05 seconds
+Running time per step  is 0.676382 seconds
+                                                                       
+                                                                       
+25414: 6.00015 Jacobi iterations: 1 vel_max: 0.0307493
+Jacob time per iteration is 5.01854e-05 seconds
+Running time per step  is 0.716603 seconds
+                                                                       
+                                                                       
+28511: 6.50015 Jacobi iterations: 1 vel_max: 0.0311716
+Jacob time per iteration is 4.53352e-05 seconds
+Running time per step  is 0.689361 seconds
+                                                                       
+                                                                       
+31645: 7.00015 Jacobi iterations: 1 vel_max: 0.0314946
+Jacob time per iteration is 4.3897e-05 seconds
+Running time per step  is 0.675493 seconds
+                                                                       
+                                                                       
+34807: 7.50005 Jacobi iterations: 1 vel_max: 0.031748
+Jacob time per iteration is 4.66754e-05 seconds
+Running time per step  is 0.706611 seconds
+                                                                       
+                                                                       
+37992: 8.00001 Jacobi iterations: 1 vel_max: 0.0319506
+Jacob time per iteration is 4.54377e-05 seconds
+Running time per step  is 0.702217 seconds
+                                                                       
+                                                                       
+41196: 8.50006 Jacobi iterations: 1 vel_max: 0.0321178
+Jacob time per iteration is 4.70186e-05 seconds
+Running time per step  is 0.736754 seconds
+                                                                       
+                                                                       
+44415: 9.00005 Jacobi iterations: 1 vel_max: 0.0322605
+Jacob time per iteration is 4.74673e-05 seconds
+Running time per step  is 0.738005 seconds
+                                                                       
+                                                                       
+47648: 9.50013 Jacobi iterations: 1 vel_max: 0.0323866
+Jacob time per iteration is 4.48525e-05 seconds
+Running time per step  is 0.713132 seconds
+                                                                       
+                                                                       
+50892: 10.0001 Jacobi iterations: 1 vel_max: 0.0325014
+Jacob time per iteration is 4.60189e-05 seconds
+Running time per step  is 0.737756 seconds
+                                                                       
+                                                                       
+54148: 10.5001 Jacobi iterations: 1 vel_max: 0.032607
+Jacob time per iteration is 4.69361e-05 seconds
+Running time per step  is 0.748868 seconds
+                                                                       
+                                                                       
+57413: 11 Jacobi iterations: 1 vel_max: 0.0327059
+Jacob time per iteration is 4.65251e-05 seconds
+Running time per step  is 0.747723 seconds
+                                                                       
+                                                                       
+60689: 11.5001 Jacobi iterations: 1 vel_max: 0.0327998
+Jacob time per iteration is 4.45989e-05 seconds
+Running time per step  is 0.72117 seconds
+                                                                       
+                                                                       
+63973: 12.0001 Jacobi iterations: 1 vel_max: 0.0328897
+Jacob time per iteration is 4.53551e-05 seconds
+Running time per step  is 0.729093 seconds
+                                                                       
+                                                                       
+67266: 12.5 Jacobi iterations: 1 vel_max: 0.0329763
+Jacob time per iteration is 4.59554e-05 seconds
+Running time per step  is 0.744807 seconds
+                                                                       
+                                                                       
+70568: 13 Jacobi iterations: 1 vel_max: 0.0330606
+Jacob time per iteration is 4.69395e-05 seconds
+Running time per step  is 0.785777 seconds
+                                                                       
+                                                                       
+73879: 13.5001 Jacobi iterations: 1 vel_max: 0.0331437
+Jacob time per iteration is 4.67302e-05 seconds
+Running time per step  is 0.766095 seconds
+                                                                       
+                                                                       
+77197: 14.0001 Jacobi iterations: 1 vel_max: 0.0332243
+Jacob time per iteration is 4.91987e-05 seconds
+Running time per step  is 0.825524 seconds
+                                                                       
+                                                                       
+80523: 14.5 Jacobi iterations: 1 vel_max: 0.0333024
+Jacob time per iteration is 4.60362e-05 seconds
+Running time per step  is 0.75611 seconds
+                                                                       
+                                                                       
+83857: 15 Jacobi iterations: 1 vel_max: 0.0333782
+Jacob time per iteration is 5.04098e-05 seconds
+Running time per step  is 0.856643 seconds
+                                                                       
+                                                                       
+87199: 15.5001 Jacobi iterations: 1 vel_max: 0.0334516
+Jacob time per iteration is 4.64692e-05 seconds
+Running time per step  is 0.764266 seconds
+                                                                       
+                                                                       
+90548: 16.0001 Jacobi iterations: 1 vel_max: 0.0335228
+Jacob time per iteration is 5.67158e-05 seconds
+Running time per step  is 0.817691 seconds
+                                                                       
+                                                                       
+93903: 16.5 Jacobi iterations: 1 vel_max: 0.0335919
+Jacob time per iteration is 4.73744e-05 seconds
+Running time per step  is 0.839036 seconds
+                                                                       
+                                                                       
+97266: 17.0001 Jacobi iterations: 1 vel_max: 0.033659
+Jacob time per iteration is 5.51481e-05 seconds
+Running time per step  is 0.817446 seconds
+                                                                       
+                                                                       
+100635: 17.5001 Jacobi iterations: 1 vel_max: 0.0337243
+Jacob time per iteration is 4.71372e-05 seconds
+Running time per step  is 0.860733 seconds
+                                                                       
+                                                                       
+104011: 18.0001 Jacobi iterations: 1 vel_max: 0.0337886
+Jacob time per iteration is 4.8882e-05 seconds
+Running time per step  is 0.819568 seconds
+                                                                       
+                                                                       
+107393: 18.5001 Jacobi iterations: 1 vel_max: 0.0338519
+Jacob time per iteration is 4.72485e-05 seconds
+Running time per step  is 0.7981 seconds
+                                                                       
+                                                                       
+110781: 19.0001 Jacobi iterations: 1 vel_max: 0.0339139
+Jacob time per iteration is 4.87497e-05 seconds
+Running time per step  is 0.828021 seconds
+                                                                       
+                                                                       
+114175: 19.5 Jacobi iterations: 1 vel_max: 0.0339746
+Jacob time per iteration is 4.83839e-05 seconds
+Running time per step  is 0.786385 seconds
+                                                                       
+                                                                       
+117576: 20.0001 Jacobi iterations: 1 vel_max: 0.0340342
+Jacob time per iteration is 4.9897e-05 seconds
+Running time per step  is 0.828197 seconds
+                                                                       
+                                                                       
+120982: 20.5 Jacobi iterations: 1 vel_max: 0.0340928
+Jacob time per iteration is 4.81662e-05 seconds
+Running time per step  is 0.823666 seconds
+                                                                       
+                                                                       
+124394: 21 Jacobi iterations: 1 vel_max: 0.0341504
+Jacob time per iteration is 5.10758e-05 seconds
+Running time per step  is 0.814305 seconds
+                                                                       
+                                                                       
+127812: 21.5 Jacobi iterations: 1 vel_max: 0.0342073
+Jacob time per iteration is 5.45508e-05 seconds
+Running time per step  is 0.845965 seconds
+                                                                       
+                                                                       
+131236: 22.0001 Jacobi iterations: 1 vel_max: 0.0342633
+Jacob time per iteration is 5.90488e-05 seconds
+Running time per step  is 0.928364 seconds
+                                                                       
+                                                                       
+134665: 22.5001 Jacobi iterations: 1 vel_max: 0.0343186
+Jacob time per iteration is 4.76646e-05 seconds
+Running time per step  is 0.806281 seconds
+                                                                       
+                                                                       
+138100: 23.0001 Jacobi iterations: 1 vel_max: 0.0343733
+Jacob time per iteration is 5.08144e-05 seconds
+Running time per step  is 0.840003 seconds
+                                                                       
+                                                                       
+141540: 23.5001 Jacobi iterations: 1 vel_max: 0.0344273
+Jacob time per iteration is 4.70077e-05 seconds
+Running time per step  is 0.803639 seconds
+                                                                       
+                                                                       
+144985: 24.0001 Jacobi iterations: 1 vel_max: 0.0344807
+Jacob time per iteration is 4.57882e-05 seconds
+Running time per step  is 0.785697 seconds
+                                                                       
+                                                                       
+148436: 24.5001 Jacobi iterations: 1 vel_max: 0.0345335
+Jacob time per iteration is 4.45854e-05 seconds
+Running time per step  is 0.757519 seconds
+                                                                       
+                                                                       
+151892: 25.0001 Jacobi iterations: 1 vel_max: 0.0345857
+Jacob time per iteration is 5.0981e-05 seconds
+Running time per step  is 0.923503 seconds
+                                                                       
+                                                                       
+155353: 25.5001 Jacobi iterations: 1 vel_max: 0.0346374
+Jacob time per iteration is 4.63885e-05 seconds
+Running time per step  is 0.793329 seconds
+                                                                       
+                                                                       
+158819: 26 Jacobi iterations: 1 vel_max: 0.0346886
+Jacob time per iteration is 4.70633e-05 seconds
+Running time per step  is 0.800757 seconds
+                                                                       
+                                                                       
+162291: 26.5001 Jacobi iterations: 1 vel_max: 0.0347393
+Jacob time per iteration is 4.53039e-05 seconds
+Running time per step  is 0.773639 seconds
+                                                                       
+                                                                       
+165767: 27.0001 Jacobi iterations: 1 vel_max: 0.0347896
+Jacob time per iteration is 4.65915e-05 seconds
+Running time per step  is 0.796691 seconds
+                                                                       
+                                                                       
+169249: 27.5001 Jacobi iterations: 1 vel_max: 0.0348405
+Jacob time per iteration is 4.91142e-05 seconds
+Running time per step  is 0.804353 seconds
+                                                                       
+                                                                       
+172735: 28.0001 Jacobi iterations: 1 vel_max: 0.0348908
+Jacob time per iteration is 4.63723e-05 seconds
+Running time per step  is 0.779682 seconds
+                                                                       
+                                                                       
+176227: 28.5001 Jacobi iterations: 1 vel_max: 0.0349408
+Jacob time per iteration is 4.74646e-05 seconds
+Running time per step  is 0.798758 seconds
+                                                                       
+                                                                       
+179723: 29 Jacobi iterations: 1 vel_max: 0.0349903
+Jacob time per iteration is 4.72678e-05 seconds
+Running time per step  is 0.837011 seconds
+                                                                       
+                                                                       
+183225: 29.5001 Jacobi iterations: 1 vel_max: 0.0350394
+Jacob time per iteration is 5.27951e-05 seconds
+Running time per step  is 0.836998 seconds
+                                                                       
+                                                                       
+186731: 30.0001 Jacobi iterations: 1 vel_max: 0.0350881
+Jacob time per iteration is 4.6464e-05 seconds
+Running time per step  is 0.813136 seconds
+                                                                       
+                                                                       
+190242: 30.5 Jacobi iterations: 1 vel_max: 0.0351364
+Jacob time per iteration is 4.56832e-05 seconds
+Running time per step  is 0.806137 seconds
+                                                                       
+                                                                       
+193758: 31 Jacobi iterations: 1 vel_max: 0.0351843
+Jacob time per iteration is 4.53959e-05 seconds
+Running time per step  is 0.802118 seconds
+                                                                       
+                                                                       
+197279: 31.5001 Jacobi iterations: 1 vel_max: 0.0352318
+Jacob time per iteration is 4.60246e-05 seconds
+Running time per step  is 0.80579 seconds
+                                                                       
+                                                                       
+200805: 32.0001 Jacobi iterations: 1 vel_max: 0.035279
+Jacob time per iteration is 4.58912e-05 seconds
+Running time per step  is 0.8017 seconds
+                                                                       
+                                                                       
+204335: 32.5001 Jacobi iterations: 1 vel_max: 0.0353258
+Jacob time per iteration is 5.8302e-05 seconds
+Running time per step  is 0.866588 seconds
+                                                                       
+                                                                       
+207870: 33.0001 Jacobi iterations: 1 vel_max: 0.0353722
+Jacob time per iteration is 5.4958e-05 seconds
+Running time per step  is 0.918786 seconds
+                                                                       
+                                                                       
+211409: 33.5 Jacobi iterations: 1 vel_max: 0.0354183
+Jacob time per iteration is 4.57172e-05 seconds
+Running time per step  is 0.862876 seconds
+                                                                       
+                                                                       
+214953: 34 Jacobi iterations: 1 vel_max: 0.035464
+Jacob time per iteration is 4.60895e-05 seconds
+Running time per step  is 0.808796 seconds
+                                                                       
+                                                                       
+218502: 34.5001 Jacobi iterations: 1 vel_max: 0.0355094
+Jacob time per iteration is 5.51902e-05 seconds
+Running time per step  is 0.911895 seconds
+                                                                       
+                                                                       
+222055: 35 Jacobi iterations: 1 vel_max: 0.0355544
+Jacob time per iteration is 5.27637e-05 seconds
+Running time per step  is 0.91335 seconds
+                                                                       
+                                                                       
+225613: 35.5001 Jacobi iterations: 1 vel_max: 0.0355991
+Jacob time per iteration is 4.46997e-05 seconds
+Running time per step  is 0.807475 seconds
+                                                                       
+                                                                       
+229175: 36.0001 Jacobi iterations: 1 vel_max: 0.0356435
+Jacob time per iteration is 4.68293e-05 seconds
+Running time per step  is 0.817277 seconds
+                                                                       
+                                                                       
+232742: 36.5001 Jacobi iterations: 1 vel_max: 0.0356875
+Jacob time per iteration is 4.55435e-05 seconds
+Running time per step  is 0.802677 seconds
+                                                                       
+                                                                       
+236313: 37.0001 Jacobi iterations: 1 vel_max: 0.0357313
+Jacob time per iteration is 4.6171e-05 seconds
+Running time per step  is 0.805159 seconds
+                                                                       
+                                                                       
+239888: 37.5001 Jacobi iterations: 1 vel_max: 0.0357747
+Jacob time per iteration is 4.69729e-05 seconds
+Running time per step  is 0.857364 seconds
+                                                                       
+                                                                       
+243468: 38.0001 Jacobi iterations: 1 vel_max: 0.0358178
+Jacob time per iteration is 4.73836e-05 seconds
+Running time per step  is 0.8275 seconds
+                                                                       
+                                                                       
+247051: 38.5 Jacobi iterations: 1 vel_max: 0.0358606
+Jacob time per iteration is 4.82553e-05 seconds
+Running time per step  is 0.828103 seconds
+                                                                       
+                                                                       
+250640: 39.0001 Jacobi iterations: 1 vel_max: 0.0359031
+Jacob time per iteration is 4.70456e-05 seconds
+Running time per step  is 0.828539 seconds
+                                                                       
+                                                                       
+254232: 39.5001 Jacobi iterations: 1 vel_max: 0.0359452
+Jacob time per iteration is 4.65109e-05 seconds
+Running time per step  is 0.819395 seconds
+                                                                       
+                                                                       
+257829: 40.0001 Jacobi iterations: 1 vel_max: 0.0359871
+Jacob time per iteration is 4.62747e-05 seconds
+Running time per step  is 0.812662 seconds
+                                                                       
+                                                                       
+261429: 40.5 Jacobi iterations: 1 vel_max: 0.0360287
+Jacob time per iteration is 4.67503e-05 seconds
+Running time per step  is 0.856295 seconds
+                                                                       
+                                                                       
+265034: 41 Jacobi iterations: 1 vel_max: 0.03607
+Jacob time per iteration is 5.07403e-05 seconds
+Running time per step  is 0.864814 seconds
+                                                                       
+                                                                       
+268643: 41.5 Jacobi iterations: 1 vel_max: 0.036111
+Jacob time per iteration is 4.66694e-05 seconds
+Running time per step  is 0.813616 seconds
+                                                                       
+                                                                       
+272257: 42.0001 Jacobi iterations: 1 vel_max: 0.036152
+Jacob time per iteration is 4.62226e-05 seconds
+Running time per step  is 0.80453 seconds
+                                                                       
+                                                                       
+275874: 42.5001 Jacobi iterations: 1 vel_max: 0.0361932
+Jacob time per iteration is 4.46494e-05 seconds
+Running time per step  is 0.833988 seconds
+                                                                       
+                                                                       
+279495: 43 Jacobi iterations: 1 vel_max: 0.0362341
+Jacob time per iteration is 4.616e-05 seconds
+Running time per step  is 0.818195 seconds
+                                                                       
+                                                                       
+283121: 43.5001 Jacobi iterations: 1 vel_max: 0.0362748
+Jacob time per iteration is 4.81371e-05 seconds
+Running time per step  is 0.83296 seconds
+                                                                       
+                                                                       
+286750: 44 Jacobi iterations: 1 vel_max: 0.0363151
+Jacob time per iteration is 4.89063e-05 seconds
+Running time per step  is 0.836069 seconds
+                                                                       
+                                                                       
+290384: 44.5001 Jacobi iterations: 1 vel_max: 0.0363552
+Jacob time per iteration is 4.61881e-05 seconds
+Running time per step  is 0.829024 seconds
+                                                                       
+                                                                       
+294021: 45 Jacobi iterations: 1 vel_max: 0.036395
+Jacob time per iteration is 5.73939e-05 seconds
+Running time per step  is 0.950592 seconds
+                                                                       
+                                                                       
+297663: 45.5001 Jacobi iterations: 1 vel_max: 0.0364345
+Jacob time per iteration is 4.59076e-05 seconds
+Running time per step  is 0.827218 seconds
+                                                                       
+                                                                       
+301308: 46.0001 Jacobi iterations: 1 vel_max: 0.0364738
+Jacob time per iteration is 4.77488e-05 seconds
+Running time per step  is 0.834992 seconds
+                                                                       
+                                                                       
+304957: 46.5 Jacobi iterations: 1 vel_max: 0.0365128
+Jacob time per iteration is 4.76237e-05 seconds
+Running time per step  is 0.852425 seconds
+                                                                       
+                                                                       
+308611: 47.0001 Jacobi iterations: 1 vel_max: 0.0365515
+Jacob time per iteration is 4.76641e-05 seconds
+Running time per step  is 0.858275 seconds
+                                                                       
+                                                                       
+312268: 47.5001 Jacobi iterations: 1 vel_max: 0.0365899
+Jacob time per iteration is 4.74376e-05 seconds
+Running time per step  is 0.853233 seconds
+                                                                       
+                                                                       
+315929: 48.0001 Jacobi iterations: 1 vel_max: 0.0366281
+Jacob time per iteration is 5.28718e-05 seconds
+Running time per step  is 0.890363 seconds
+                                                                       
+                                                                       
+319593: 48.5 Jacobi iterations: 1 vel_max: 0.036666
+Jacob time per iteration is 4.85637e-05 seconds
+Running time per step  is 0.864139 seconds
+                                                                       
+                                                                       
+323262: 49.0001 Jacobi iterations: 1 vel_max: 0.0367037
+Jacob time per iteration is 4.77726e-05 seconds
+Running time per step  is 0.862679 seconds
+                                                                       
+                                                                       
+326934: 49.5001 Jacobi iterations: 1 vel_max: 0.0367411
+Jacob time per iteration is 4.68168e-05 seconds
+Running time per step  is 0.843916 seconds
+                                                                       
+                                                                       
+330610: 50.0001 Jacobi iterations: 1 vel_max: 0.0367782
+Jacob time per iteration is 4.76325e-05 seconds
+Running time per step  is 0.864482 seconds
+                                                                       
+Average jacob time per iteration is 4.46666e-05 seconds
+Average time per step  is 0.803729 seconds
+Total simulation time is 82.0037 seconds
+# mpiexec: finished at Wed 31 May 21:57:09 BST 2023

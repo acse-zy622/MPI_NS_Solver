@@ -1,0 +1,46 @@
+Nx*Ny
+201*101
+
+32 cores:
+log file: NS_late_32.txt
+Jacob time per iteration is 6.61734e-05 seconds
+Time per step  is 0.636511 seconds
+Total simulation time is 66.0242 seconds
+
+8cores:
+log file: try1.o7655628
+Average jacob time per iteration is 4.70396e-05 seconds
+Average time per step  is 0.613197 seconds
+Total simulation time is 62.6717 seconds
+
+16cores:
+log file: try1.o7655632
+Average jacob time per iteration is 3.99967e-05 seconds
+Average time per step  is 0.470023 seconds
+Total simulation time is 48.5574 seconds
+
+
+4 cores:
+log file: NS_late_4.txt
+Average jacob time per iteration is 4.46666e-05 seconds
+Average time per step  is 0.803729 seconds
+Total simulation time is 82.0037 seconds
+
+
+64 cores:
+log file: try1.o7649528
+Average jacob time per iteration is 4.31581e-05 seconds
+Average time per step  is 0.380708 seconds
+Total simulation time is 40.1144 seconds
+
+
+128 cores:
+log file: try1.o7649628
+Average jacob time per iteration is 8.26182e-05 seconds
+Average time per step  is 0.633393 seconds
+Total simulation time is 72.0238 seconds
+
+
+
+
+

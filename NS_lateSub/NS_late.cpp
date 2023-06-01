@@ -52,7 +52,7 @@ public:
 	double dx, dy;
 	double dt, t;
 	int id, p;
-    int max_i,max_j;
+        int max_i,max_j; 
 	int tag_num;
 	
 	// Initailize vectors for storing global coordinates in subdomains. Similiar to Exercise 6.2
